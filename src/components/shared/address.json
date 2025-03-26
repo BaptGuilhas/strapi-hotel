@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_addresses",
+  "info": {
+    "displayName": "Address"
+  },
+  "options": {},
+  "attributes": {
+    "Number": {
+      "type": "string"
+    },
+    "Street": {
+      "type": "string"
+    },
+    "PostalCode": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "Region": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "GPSPoint": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.geographic-localization"
+    }
+  }
+}

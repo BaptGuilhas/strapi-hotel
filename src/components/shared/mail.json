@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_mail",
+  "info": {
+    "displayName": "mail",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mail": {
+      "type": "string",
+      "regex": "^[\\w\\.-]+@[a-zA-Z\\d\\.-]+\\.[a-zA-Z]{2,6}$"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "collectionName": "components_shared_geographic_localization",
+    "info": {
+      "displayName": "Geographic localization",
+      "description": ""
+    },
+    "options": {},
+    "attributes": {
+      "latitude": {
+        "type": "float"
+      },
+      "longitude": {
+        "type": "float"
+      }
+    }
+  }
+  
