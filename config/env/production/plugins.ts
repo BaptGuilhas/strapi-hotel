@@ -26,6 +26,7 @@
               uploadStream: {},
               delete: {},
             },
+            breakpoints: [64, 128, 256, 512], // Active la génération des miniatures
           },
         },
   });
