@@ -19,6 +19,7 @@
                 ACL: null,
                 Bucket: env('AWS_BUCKET'),
               },
+              baseUrl: `https://${env("AWS_BUCKET")}.s3.${env("AWS_REGION")}.amazonaws.com`, // Ajoute cette ligne,
             },
             actionOptions: {
               upload: {},
