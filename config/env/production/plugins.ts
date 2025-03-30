@@ -1,5 +1,5 @@
 // export default () => ({
-     
+    console.log("Boujoujou")
     export default ({ env }) => ({
         'users-permissions': {
           config: {
