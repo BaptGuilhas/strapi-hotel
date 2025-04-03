@@ -74,10 +74,12 @@ export default ({ env }) => {
       client: 'postgres',
       connection: {
         connectionString: env("DATABASE_URL"),
-        ssl: env.bool('DATABASE_SSL', false),
-        // ssl: {
-        //   rejectUnauthorized: false,
-        // },
+        // // en local : 
+        // ssl: env.bool('DATABASE_SSL', false),
+        // sur Render : 
+        ssl: {
+          rejectUnauthorized: false,
+        },
         debug: false
       }
     },
