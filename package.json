@@ -9,7 +9,10 @@
     "develop": "strapi develop",
     "seed:example": "node ./scripts/seed.js",
     "start": "strapi start",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "db:start": "docker compose -f docker-compose-dev.yml up -d",
+    "db:stop": "docker compose -f docker-compose-dev.yml down",
+    "db:logs": "docker logs -f strapi_hotel_api_pg"
   },
   "dependencies": {
     "@strapi/plugin-cloud": "5.3.0",

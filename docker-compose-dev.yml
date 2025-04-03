@@ -1,0 +1,16 @@
+# version: “3.1”
+
+services:
+  database:
+    container_name: strapi_hotel_api_pg
+    image: postgres
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: strapi_hotel
+      POSTGRES_USER: strapi_hotel
+      POSTGRES_PASSWORD: oUPMzXF4Z216HxMyksW
+    volumes:
+      - strapi_db:/var/lib/postgresql/data
+volumes:
+  strapi_db: {}
